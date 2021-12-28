@@ -9,7 +9,7 @@ export default function PostList () {
 
   useEffect(() => {
     dispatch(fetchPosts())
-  }, [])
+  }, [dispatch])
 
   return (
     <div>
